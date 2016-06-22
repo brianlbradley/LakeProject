@@ -1,0 +1,142 @@
+ html, body {
+        height: 100%;
+        margin: 0px;
+        padding: 0;
+        padding-top: 10px;
+        background: black
+
+
+
+      }
+ html, body {
+        height: 100%;
+        margin: 0px;
+        padding: 0;
+        padding-top: 10px;
+        background: black
+
+
+
+      }
+      .lake {
+        float:left;
+      }
+
+      @media screen and (max-width:450px) {
+  .lake {
+     display:none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 0%;
+  border: 1px;
+  border-color: red;
+}
+
+#map {
+  height: 1000px;
+  width: 105%;
+  padding-bottom: 5%;
+  border: 1px;
+  border-color: red;
+}
+
+.heading  {
+
+          height: 400px;
+          width: 375px;
+          font:25px bold;
+          text-align: center;
+          color: lightgrey;
+          background-color:black;
+
+        }
+.infohead {
+  color: red;
+  font-weight: bold;
+}
+.infobody {
+  font-size: 16;
+  font-family: sans-serif;
+}
+p {
+  color: grey;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.canonical {
+
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.rating {
+  color: green;
+  font-size: 16px;
+}
+
+.title {
+  color: lightblue;
+
+}
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 0%;
+  border: 1px;
+  border-color: red;
+}
+
+#map {
+  height: 1000px;
+  width: 105%;
+  padding-bottom: 5%;
+  border: 1px;
+  border-color: red;
+}
+
+.heading  {
+
+          height: 400px;
+          width: 375px;
+          font:25px bold;
+          text-align: center;
+          color: grey;
+          background-color:black;
+
+        }
+.infohead {
+  color: red;
+  font-weight: bold;
+}
+.infobody {
+  font-size: 16;
+  font-family: sans-serif;
+}
+p {
+  color: grey;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.canonical {
+
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.rating {
+  color: green;
+  font-size: 16px;
+}
+
+.title {
+  color: lightblue;
+
+}
