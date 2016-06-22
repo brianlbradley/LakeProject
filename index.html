@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logan Martin Neighborhood Map</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+  </head>
+  <body>
+  <div class = "container">
+   <div class = "row">
+
+      <div class= "heading col-md-3  text align-left">
+        <fieldset>
+       <h1 class ="title">Lake Spots</h1>
+       <input type ="search"  data-bind = "textInput: userInput, event: {keyup: filterMarkers}">
+       <ul id = "list-view" data-bind = "foreach: visiblePlaces">
+      <li data-bind = "text:name, click: $parent.showWindows"> </li>
+
+      </fieldset>
+          </ul>
+
+          <br>
+       <img src = "img/lakepic3.jpg" class = "lake" alt ="Lake Pic" width="350" height="300">
+
+        </div>
+
+
+    <div class = "col-md-7">
+    <div id="map"></div>
+      </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO7zaTpALyiQJOvnvA7_muATPumXQT2uU&callback=initMap"onerror = "googleError()",
+    async defer></script>
+    <script src="js/lib/jquery.min.js"></script>
+  </body>
+</html>
+
+
+
+
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
